@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+#root{
+  font-family:"Inter", sans-serif;
+  font-optical-sizing:auto;
+  font-style:normal;
+}
+
+@theme {
+  /* This adds a custom color called 'rabbit-red' */
+  --color-rabbit-red: #ea2e0e;
+  
+  /* You can also define shades */
+  --color-primary-500: #3b82f6;
+}
